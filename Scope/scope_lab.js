@@ -27,3 +27,16 @@ show();
 console.log(functionVar); // Throws ReferenceError
 console.log(functionLet); // Throws ReferenceError
 console.log(functionConst); // Throws ReferenceError
+
+// Practice task
+{
+    let myletvar;
+    var myvarvar;
+    const myconstvar = "I'm a constant";
+    myletvar = "I'm a let var";
+    myvarvar = "I'm a var var";
+    //myconstvar = "I'm a constant. I have to be initiziazed during first declaration. I will cause an exception";
+}
+myletvar = "I'm a let var defined elsewhere. I will cause an exception";
+myvarvar = "I'm a reassigned var var";
+myconstvar = "I'm an already assigned contant. I will cause an exception"
